@@ -118,11 +118,11 @@
   
   
   <entry>
-    <title>vocabulary</title>
-    <link href="/2023/07/11/English/"/>
-    <url>/2023/07/11/English/</url>
+    <title>English Literature</title>
+    <link href="/2023/07/11/English%20literature/"/>
+    <url>/2023/07/11/English%20literature/</url>
     
-    <content type="html"><![CDATA[<p>词汇量</p>]]></content>
+    <content type="html"><![CDATA[<p>在此整理一些和英语文学有关的话题</p>]]></content>
     
     
     <categories>
@@ -137,35 +137,16 @@
   
   
   <entry>
-    <title>Caculus</title>
-    <link href="/2023/07/11/math/"/>
-    <url>/2023/07/11/math/</url>
+    <title>vocabulary</title>
+    <link href="/2023/07/11/English/"/>
+    <url>/2023/07/11/English/</url>
     
-    <content type="html"><![CDATA[<p>2023.7.21.</p><p>我突然想学习微积分，因为我感觉我以后有极大的可能使用到它，微积分的思想和元素极大的充盈着我们所生活的空间之中（也许尤其是一些与曲线相关的内容），而对于我而言，如果到现在还没有理解掌握微积分可能就太过分了,我记得之前我在学习斯坦福Leonard Susskind的广义相对论（原谅我或者也不用原谅我因为我不为了任何人，但是这又使我想起我在音乐方面的学习，在没有何老师认真指导的情况下几乎是野蛮冲撞着，以极其低下的效率），教授说我就没见过不会微积分的高中生（当然也许是一种调侃不过他毕竟是斯坦福的教授）。但是我现在有点不太能确定从何入手去学习数学，因为我对数学的敏感程度可能偏低（相比较平均水准甚至都非常低，虽然我在其他一些方面的天赋极其极端地超越了平均的水准）</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Mathematics</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>2022年</title>
-    <link href="/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972022/"/>
-    <url>/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972022/</url>
-    
-    <content type="html"><![CDATA[<p>待整理</p><p>今年一整年都在疯狂思念那个我完全无法见到甚至想象到的虚幻个体，是虚幻的吗？</p>]]></content>
+    <content type="html"><![CDATA[<p>词汇量</p>]]></content>
     
     
     <categories>
       
-      <category>Odyssey</category>
+      <category>English</category>
       
     </categories>
     
@@ -194,6 +175,25 @@
   
   
   <entry>
+    <title>Caculus</title>
+    <link href="/2023/07/11/math/"/>
+    <url>/2023/07/11/math/</url>
+    
+    <content type="html"><![CDATA[<p>2023.7.21.</p><p>我突然想学习微积分，因为我感觉我以后有极大的可能使用到它，微积分的思想和元素极大的充盈着我们所生活的空间之中（也许尤其是一些与曲线相关的内容），而对于我而言，如果到现在还没有理解掌握微积分可能就太过分了,我记得之前我在学习斯坦福Leonard Susskind的广义相对论（原谅我或者也不用原谅我因为我不为了任何人，但是这又使我想起我在音乐方面的学习，在没有何老师认真指导的情况下几乎是野蛮冲撞着，以极其低下的效率），教授说我就没见过不会微积分的高中生（当然也许是一种调侃不过他毕竟是斯坦福的教授）。但是我现在有点不太能确定从何入手去学习数学，因为我对数学的敏感程度可能偏低（相比较平均水准甚至都非常低，虽然我在其他一些方面的天赋极其极端地超越了平均的水准）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Mathematics</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>The Alchemy of Finance</title>
     <link href="/2023/07/11/the%20alchemy%20of%20finance/"/>
     <url>/2023/07/11/the%20alchemy%20of%20finance/</url>
@@ -204,6 +204,44 @@
     <categories>
       
       <category>Finance</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2021年</title>
+    <link href="/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972021%20copy/"/>
+    <url>/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972021%20copy/</url>
+    
+    <content type="html"><![CDATA[<p>2021年待整理</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Odyssey</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2022年</title>
+    <link href="/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972022/"/>
+    <url>/2023/07/11/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%972022/</url>
+    
+    <content type="html"><![CDATA[<p>待整理</p><p>今年一整年都在疯狂思念那个我完全无法见到甚至想象到的虚幻个体，是虚幻的吗？</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Odyssey</category>
       
     </categories>
     
