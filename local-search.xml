@@ -308,11 +308,11 @@
   
   
   <entry>
-    <title>芯片网络设计</title>
-    <link href="/2023/07/11/computer%20science%20copy/"/>
-    <url>/2023/07/11/computer%20science%20copy/</url>
+    <title>quantum computer</title>
+    <link href="/2023/07/11/computer%20science%20copy%202/"/>
+    <url>/2023/07/11/computer%20science%20copy%202/</url>
     
-    <content type="html"><![CDATA[<p>有可能会深入了解这个东西，想要了解它是因为它的结构凝聚了极为广大的智慧，并且它包含了极其广泛的科技种类，在计算机科学之外。</p>]]></content>
+    <content type="html"><![CDATA[<p>想要深入了解量子计算机的计算原理，以及它与传统意义电子计算机的区别，以及它是否有可能造成一些极其革命性质的影响。</p>]]></content>
     
     
     <categories>
@@ -327,11 +327,11 @@
   
   
   <entry>
-    <title>quantum computer</title>
-    <link href="/2023/07/11/computer%20science%20copy%202/"/>
-    <url>/2023/07/11/computer%20science%20copy%202/</url>
+    <title>芯片网络设计</title>
+    <link href="/2023/07/11/computer%20science%20copy/"/>
+    <url>/2023/07/11/computer%20science%20copy/</url>
     
-    <content type="html"><![CDATA[<p>想要深入了解量子计算机的计算原理，以及它与传统意义电子计算机的区别，以及它是否有可能造成一些极其革命性质的影响。</p>]]></content>
+    <content type="html"><![CDATA[<p>有可能会深入了解这个东西，想要了解它是因为它的结构凝聚了极为广大的智慧，并且它包含了极其广泛的科技种类，在计算机科学之外。</p>]]></content>
     
     
     <categories>
@@ -365,6 +365,25 @@
   
   
   <entry>
+    <title>Crash Course</title>
+    <link href="/2023/07/11/crashcourse/"/>
+    <url>/2023/07/11/crashcourse/</url>
+    
+    <content type="html"><![CDATA[<p>在此整理一些crash course相关的计算机科学内容，我的确在这个视频系列里学到一些非常不错的东西，但是那个女的太丑了，我真不想看她，对不起，这样说可能很过分，但是那个女的真的有点丑的恐怖。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Computer Science</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Airlines</title>
     <link href="/2023/07/11/global%20transportation/"/>
     <url>/2023/07/11/global%20transportation/</url>
@@ -384,25 +403,6 @@
   
   
   <entry>
-    <title>Low Mountains</title>
-    <link href="/2023/07/11/mountains/"/>
-    <url>/2023/07/11/mountains/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <categories>
-      
-      <category>Aphrodite In Precarious Multiform</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Caculus</title>
     <link href="/2023/07/11/math/"/>
     <url>/2023/07/11/math/</url>
@@ -413,6 +413,25 @@
     <categories>
       
       <category>Mathematics</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Low Mountains</title>
+    <link href="/2023/07/11/mountains/"/>
+    <url>/2023/07/11/mountains/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>Aphrodite In Precarious Multiform</category>
       
     </categories>
     
