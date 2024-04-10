@@ -56,10 +56,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -126,13 +148,33 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/3696342491.html" class="archive-article-date">
+      <a href="/posts/586018431.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3696342491.html">Websites</a>
+      <a class="archive-article-title" href="/posts/586018431.html">Milan Kundera was a writer of caustic irony and mordant wit 2023-7-13</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/2490520003.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/2490520003.html">My World</a>
     </h1>
   
 
@@ -152,7 +194,47 @@
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2502614528.html">katakana</a>
+      <a class="archive-article-title" href="/posts/2502614528.html">Lolita</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/3510935322.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/3510935322.html">Nabokov brief introduction</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/3696342491.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/3696342491.html">Websites</a>
     </h1>
   
 
@@ -186,13 +268,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2200418927.html" class="archive-article-date">
+      <a href="/posts/4017208550.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2200418927.html">basic feelings</a>
+      <a class="archive-article-title" href="/posts/4017208550.html">Trumpet</a>
     </h1>
   
 
@@ -206,13 +288,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/942034667.html" class="archive-article-date">
+      <a href="/posts/2502614528.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/942034667.html">Consumer Price Index（CPI）</a>
+      <a class="archive-article-title" href="/posts/2502614528.html">katakana</a>
     </h1>
   
 
@@ -226,13 +308,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/3205853765.html" class="archive-article-date">
+      <a href="/posts/3570263346.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3205853765.html">Purchasing Managers&#39; Index (PMI)</a>
+      <a class="archive-article-title" href="/posts/3570263346.html">Prose to the Masterpieces</a>
     </h1>
   
 
@@ -253,66 +335,6 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/2459510355.html">Atomic, molecule, optic physics</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/2898599059.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2898599059.html">my world</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/2908347589.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2908347589.html">声学相关的基本元素</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/4224937084.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/4224937084.html">Fourier transform</a>
     </h1>
   
 
@@ -599,6 +621,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

@@ -56,10 +56,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -406,13 +428,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2227340509.html" class="archive-article-date">
+      <a href="/posts/1937364019.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2227340509.html">quantum computer</a>
+      <a class="archive-article-title" href="/posts/1937364019.html">C语言</a>
     </h1>
   
 
@@ -446,13 +468,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/1937364019.html" class="archive-article-date">
+      <a href="/posts/2227340509.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/1937364019.html">C语言</a>
+      <a class="archive-article-title" href="/posts/2227340509.html">quantum computer</a>
     </h1>
   
 
@@ -486,13 +508,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/3375928241.html" class="archive-article-date">
+      <a href="/posts/2520195362.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3375928241.html">The Alchemy of Finance</a>
+      <a class="archive-article-title" href="/posts/2520195362.html">芯片网络设计</a>
     </h1>
   
 
@@ -526,13 +548,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2520195362.html" class="archive-article-date">
+      <a href="/posts/3375928241.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2520195362.html">芯片网络设计</a>
+      <a class="archive-article-title" href="/posts/3375928241.html">The Alchemy of Finance</a>
     </h1>
   
 
@@ -606,6 +628,26 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
+      <a href="/posts/1374864237.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/1374864237.html">Airlines</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
       <a href="/posts/2490520001.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
@@ -613,66 +655,6 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/2490520001.html">My World</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/187377367.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/187377367.html">American History &amp; Politics 1~10</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/1090854316.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/1090854316.html">中文长篇1 柔曳</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/1102830228.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/1102830228.html">Musica in todos</a>
     </h1>
   
 
@@ -706,6 +688,26 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
+      <a href="/posts/187377367.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/187377367.html">American History &amp; Politics 1~10</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
       <a href="/posts/1943907879.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
@@ -713,6 +715,26 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/1943907879.html">Caculus</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/1090854316.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/1090854316.html">中文长篇1 柔曳</a>
     </h1>
   
 
@@ -746,6 +768,26 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
+      <a href="/posts/1102830228.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/1102830228.html">Musica in todos</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
       <a href="/posts/2524270894.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
@@ -766,13 +808,33 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/1374864237.html" class="archive-article-date">
+      <a href="/posts/942034667.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/1374864237.html">Airlines</a>
+      <a class="archive-article-title" href="/posts/942034667.html">Consumer Price Index（CPI）</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/3205853765.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/3205853765.html">Purchasing Managers&#39; Index (PMI)</a>
     </h1>
   
 
@@ -793,6 +855,46 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/1293836494.html">Indigo Deer</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/2200418927.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/2200418927.html">basic feelings</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/2898599059.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/2898599059.html">my world</a>
     </h1>
   
 
@@ -946,26 +1048,6 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2502614528.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2502614528.html">katakana</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
       <a href="/posts/2940436843.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
@@ -986,13 +1068,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2200418927.html" class="archive-article-date">
+      <a href="/posts/4017208550.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2200418927.html">basic feelings</a>
+      <a class="archive-article-title" href="/posts/4017208550.html">Trumpet</a>
     </h1>
   
 
@@ -1006,13 +1088,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/942034667.html" class="archive-article-date">
+      <a href="/posts/2502614528.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/942034667.html">Consumer Price Index（CPI）</a>
+      <a class="archive-article-title" href="/posts/2502614528.html">katakana</a>
     </h1>
   
 
@@ -1026,13 +1108,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/3205853765.html" class="archive-article-date">
+      <a href="/posts/3570263346.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3205853765.html">Purchasing Managers&#39; Index (PMI)</a>
+      <a class="archive-article-title" href="/posts/3570263346.html">Prose to the Masterpieces</a>
     </h1>
   
 
@@ -1066,13 +1148,13 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/2898599059.html" class="archive-article-date">
+      <a href="/posts/3428489148.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/2898599059.html">my world</a>
+      <a class="archive-article-title" href="/posts/3428489148.html">广义相对论</a>
     </h1>
   
 
@@ -1146,66 +1228,6 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/posts/3428489148.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3428489148.html">广义相对论</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/3570263346.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/3570263346.html">Prose to the Masterpieces</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/4017208550.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/4017208550.html">Trumpet</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
       <a href="/posts/4223371171.html" class="archive-article-date">
 		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
 	  </a>
@@ -1213,26 +1235,6 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/4223371171.html">Subtitles de after hours</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-	
-		
-		
-		<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-
-      <a href="/posts/149863057.html" class="archive-article-date">
-		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
-	  </a>
-      
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/posts/149863057.html">原子弹的爆炸原理和制作流程</a>
     </h1>
   
 
@@ -1273,6 +1275,26 @@
   
     <h1 class="thumb" itemprop="name">
       <a class="archive-article-title" href="/posts/1468007052.html">教学日志</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/posts/149863057.html" class="archive-article-date">
+		  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">Jul 11, 2023</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/posts/149863057.html">原子弹的爆炸原理和制作流程</a>
     </h1>
   
 
@@ -1602,6 +1624,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
